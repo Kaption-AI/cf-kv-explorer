@@ -1,0 +1,13 @@
+name = "kv-explorer-dev"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "TEST_KV"
+id = "test-kv-namespace"
+preview_id = "test-kv-namespace"
+
+[env.development]
+[[env.development.kv_namespaces]]
+binding = "TEST_KV"
+id = "test-kv-namespace"
+preview_id = "test-kv-namespace"
